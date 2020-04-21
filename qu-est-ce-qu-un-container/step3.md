@@ -1,4 +1,4 @@
-** Chroot 
+## Chroot 
 
 Une partie importante de la conteneurisation d'un processus réside dans la capacité de celui-ci à rester confiner à l'intérieur d'un répertoire de l'arborescence, et par conséquent avoir un accès aux fichiers différent de celui de son hôte.
 
@@ -11,7 +11,7 @@ Cette commande permet d'isoler l'exécution d'un programme et d'éviter ainsi la
 Il permet également de faire tourner plusieurs instances d'un même ensemble de services ou démons sur la même machine hôte. 
 
 
-** Exemple : faire tourner une instance de terminal à l'intérieur d'un chroot.
+## Exemple : faire tourner une instance de terminal à l'intérieur d'un chroot.
 
 Pour ce faire, nous allons devoir installer l'outil `debootstrap` qui nous permettra de créer un environnement système GNU/Debian dans un répertoire de notre arborescence.
 

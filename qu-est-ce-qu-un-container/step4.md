@@ -1,4 +1,4 @@
-** Les cgroups (Control Groups)
+## Les cgroups (Control Groups)
 
 Les `cgroups` ont pour rôle de limiter la quantité de ressources que peut consommer un processus.
 Ces `cgroups sont des valeurs définies dans des fichiers spéciaux du répertoire /proc 
@@ -10,7 +10,7 @@ Elles sont liés a un autre répertoire dédié à ces cgroups, à l'emplacement
 `ls /sys/fs/cgroup/`{{execute}}
 
 
-** Ou sont les stats CPU pour un processus ?
+## Ou sont les stats CPU pour un processus ?
 
 Les stats ainsi que l'utilisation du CPU pour un processus est stocké également dans un fichier : 
 `cat /sys/fs/cgroup/cpu,cpuacct/docker/$DBID/cpuacct.stat`{{execute}}
@@ -26,7 +26,7 @@ Chaque sous répertoire indique l'ID du container Docker :
 WEBID=$(docker ps --no-trunc | grep 'nginx' | awk '{print $1}')
 ls /sys/fs/cgroup/memory/docker/$DBID`{{execute}}
 
-** Comment configurer les cgroups ?
+## Comment configurer les cgroups ?
 
 Une des principales capacités de Docker est de permettre de contrôler la mémoire maximum que peut consommer un conteneur. Cette opération fait appel aux `cgroups`.
 
