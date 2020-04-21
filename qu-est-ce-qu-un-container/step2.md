@@ -13,6 +13,6 @@ Les zones de nom disponibles sont :
 - ** User ID ** (user) : les utilisateurs
 - ** Control group ** (cgroup) : les cgroups
 
-Pour plus d'informations, vous pouvez vous référer au lien : `https://en.wikipedia.org/wiki/Linux_namespaces` {{open}}
+Pour plus d'informations, vous pouvez vous référer au lien : `https://en.wikipedia.org/wiki/Linux_namespaces`{{open}}
 
 ## Executer un processus dans un 
