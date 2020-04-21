@@ -1,4 +1,3 @@
-## Les cgroups (Control Groups)
 
 Les `cgroups` ont pour rôle de limiter la quantité de ressources que peut consommer un processus.
 Ces `cgroups sont des valeurs définies dans des fichiers spéciaux du répertoire /proc 

@@ -1,4 +1,3 @@
-## Les espaces de nom (namespaces)
 
 Les namespaces sont fondamentales pour les conteneurs Docker. Les Namespaces sont une fonctionnalité du noyau Linux, qui permet à différents processus d'avoir chacun une vue différente de certaines parties du système, comme le réseau, le système de fichiers, ou les processus.
 
@@ -15,7 +14,7 @@ Les zones de nom disponibles sont :
 
 Pour plus d'informations, vous pouvez vous référer au lien : `https://en.wikipedia.org/wiki/Linux_namespaces`{{open}}
 
-## Executer un processus dans un 
+## Executer un processus dans un espace de nom. 
 
 Sans pour autant devoir utiliser des environnements d'execution comme Docker, un processus peut devoir évoluer dans son propre espace de noms, et pour ce faire, des commandes comme `unshare` peuvent vous aider.
 

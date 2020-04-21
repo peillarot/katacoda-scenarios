@@ -2,31 +2,31 @@
   "title": "Qu'est-ce qu'un container?",
   "description": "Découverte de la conteneurisation au travers de la découverte de docker",
   "difficulty": "Beginner",
-  "time": "10 minutes",
+  "time": "25 minutes",
   "details": {
     "steps": [
       {
-        "title": "Qu'est-ce qu'un container",
+        "title": "Conteneurs & processus",
         "text": "qu-est-ce-qu-un-container.md"
       },
       {
-        "title": "Step 2",
+        "title": "Les espaces de nom (namespaces)",
         "text": "step2.md"
       },
       {
-        "title": "Step 3",
+        "title": "Chroot",
         "text": "step3.md"
       },
       {
-        "title": "Step 4",
+        "title": "Les cgroups (Control groups)",
         "text": "step4.md"
       },
       {
-        "title": "Step 5",
+        "title": "Sécurité système : seccomp / apparmor",
         "text": "step5.md"
       },
       {
-        "title": "Step 6",
+        "title": "Capabilities",
         "text": "step6.md"
       }
     ],

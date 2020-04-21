@@ -1,4 +1,3 @@
-## Chroot 
 
 Une partie importante de la conteneurisation d'un processus réside dans la capacité de celui-ci à rester confiner à l'intérieur d'un répertoire de l'arborescence, et par conséquent avoir un accès aux fichiers différent de celui de son hôte.
 
