@@ -30,27 +30,32 @@ Pour ce faire, nous allons devoir installer l'outil `debootstrap` qui nous perme
 Nous avons maintenant une arborescence minimaliste dans notre répertoire : `ls /espace_1`{{execute}} . 
 Notre processus (bash par exemple) va s'executer au sein de ce répertoire, tout en limitant son accès racine à celui que nous aurons défini.
 
-- Allons y : 
+- Allons y :
+
 `chroot /espace_1 /bin/bash`{{execute}}
 
 Comme vous le voyez, l'invite de commande a changé, là nous sommes dans un environnement cloisonné au répertoire `/espace_1`.
 
 Pour le vérifier, je propose d'aller à la racine du système de ce processus, puis de créer un fichier de test. Une fois que nous aurons quité ce `chroot` nous constaterons que ce que nous pensions être la racine était en réalité le répertoire /espace_1 de notre système de fichier.
 
-Dans notre environnement `chroot` :
+- Dans notre environnement `chroot` :
+
 `cd /
 ls -l 
 echo "mon fichier à la racine" > /fichier_racine
 ls -l`{{execute}}
 
 - Quittons notre chroot pour retourner sur notre hôte : 
+
 `exit`{{execute}}
 
 - Si je me positionne à la racine de l'arborescence du système, notre fichier de test n'apparait pas : 
+
 `cd /
 ls -l`{{execute}}
 
 - Alors qu'il est présent dans le répertoire `/espace_1` :
+
 `cd /espace_1
 ls -l`{{execute}}
 
