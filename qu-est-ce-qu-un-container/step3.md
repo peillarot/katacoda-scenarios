@@ -16,16 +16,16 @@ Il permet également de faire tourner plusieurs instances d'un même ensemble de
 Pour ce faire, nous allons devoir installer l'outil `debootstrap` qui nous permettra de créer un environnement système GNU/Debian dans un répertoire de notre arborescence.
 
 - Commençons par mettre à jour la base de paquets de notre hôte Ubuntu : 
-`apt-get update`{{execute}}
+`sudo apt-get update`{{execute}}
 
 - Maintenant installons notre paquet : 
-`apt-get install -y debootstrap`{{execute}}
+`sudo apt-get install -y debootstrap`{{execute}}
 
 - Créons notre répertoire : 
-`mkdir /espace_1`{{execute}}
+`sudo mkdir /espace_1`{{execute}}
 
 - Déployons notre arborescence type dans notre répertoire : 
-`debootstrap stable /espace_1 https://deb.debian.org/debian/`{{execute}}
+`sudo debootstrap stable /espace_1 https://deb.debian.org/debian/`{{execute}}
 
 Nous avons maintenant une arborescence minimaliste dans notre répertoire : `ls /espace_1`{{execute}} . 
 Notre processus (bash par exemple) va s'executer au sein de ce répertoire, tout en limitant son accès racine à celui que nous aurons défini.
