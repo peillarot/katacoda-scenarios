@@ -21,7 +21,7 @@ Tous les cgroups de Docker pour la configuration mémoire des containers est, el
 `ls /sys/fs/cgroup/memory/docker/`{{execute}}
 
 Chaque sous répertoire indique l'ID du container Docker : 
-`DBID=$(docker ps --no-trunc | grep 'db' | awk '{print $1}')
+`DBID=$(docker ps --no-trunc | grep 'redis' | awk '{print $1}')
 WEBID=$(docker ps --no-trunc | grep 'nginx' | awk '{print $1}')
 ls /sys/fs/cgroup/memory/docker/$DBID`{{execute}}
 
