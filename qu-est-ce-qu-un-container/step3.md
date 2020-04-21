@@ -35,12 +35,12 @@ Pour le vérifier, je propose d'aller à la racine du système de ce processus, 
 ls -l 
 echo "mon fichier à la racine" > /fichier_racine
 ls -l
-# on sort du chroot 
+echo "on sort du chroot "
 exit
-# On se positionne à la racine puis on liste
+echo " On se positionne à la racine puis on liste"
 cd /
 ls -l 
-# On vas dans /espace_1
+echo "On vas dans /espace_1"
 cd /espace_1
 ls -l`{{execute}}
 
