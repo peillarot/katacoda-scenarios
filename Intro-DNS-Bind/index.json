@@ -35,11 +35,17 @@
     },
     "finish": {
       "text": "finish.md"
+    },
+    "assets": {
+      "client": {
+        "file": ".bashrc",
+        "target": "~/"
+      }
     }
   },
   "environment": {
     "uilayout": "terminal",
-    "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\r\nStart python using `python` command.\u001b[m\r\n"
+    "uimessage1": "\u001b[32mVoici votre terminal interactif !\r\nVous pouvez exécuter les commandes en cliquant sur les liens de commandes du cours, ou décider de tapper vos propres commandes.\u001b[m\r\n"
   },
   "backend": {
     "imageid": "ubuntu"
