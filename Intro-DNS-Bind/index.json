@@ -33,7 +33,7 @@
     ],
     "intro": {
       "text": "intro.md",
-      "code": "source ~/.bashrc_2"
+      "code": "source /root/.bashrc_2"
     },
     "finish": {
       "text": "finish.md"
@@ -41,7 +41,7 @@
     "assets": {
       "client": {
         "file": ".bashrc_2",
-        "target": "~/"
+        "target": "/root"
       }
     }
   },
