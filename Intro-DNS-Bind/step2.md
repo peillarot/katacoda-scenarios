@@ -6,9 +6,9 @@ Tout la configuration de notre serveur DNS est localisée dans le répertoire `/
 
 Ce répertoire est constitué de deux familles de fichiers différents : 
 - Les fichiers de configuration du service bind à proprement parler :
-  [X] **named.conf :** Le fichier de configuration principal de Bind
-      *Ce fichier contenait historiqment tous les paramètres du service. Sur nos distributions modernes, il a été sépara en trois fichiers, que nous allons détailler juste après. Si vous l'éditez, il ne contiens que trois `include` car il a été séparé en trois parties principales :*
-`cat /etc/bind/named.conf`{{execute}}
+[X] **named.conf :** Le fichier de configuration principal de Bind
+	_Ce fichier contenait historiqment tous les paramètres du service. Sur nos distributions modernes, il a été sépara en trois fichiers, que nous allons détailler juste après. Si vous l'éditez, il ne contiens que trois `include` car il a été séparé en trois parties principales :_
+	`cat /etc/bind/named.conf`{{execute}}
   [X] **named.conf.options :** C'est le premier bloc de configuration, destiné a accueillir toutes les options liées au fonctionnement du service (port d'écoute, options, redirecteurs, sécurité etc.).
 `cat /etc/bind/named.conf.options`{{execute}}
   [X] **named.conf.default-zones :** C'est le fichier contenant le paramétrage des zones par défaut : en général, et sauf paramétrage spécifique, nous ne touchons pas à ce fichier.
