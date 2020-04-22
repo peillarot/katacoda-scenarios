@@ -32,14 +32,15 @@
       }
     ],
     "intro": {
-      "text": "intro.md"
+      "text": "intro.md",
+      "code": "source ~/.bashrc_2"
     },
     "finish": {
       "text": "finish.md"
     },
     "assets": {
       "client": {
-        "file": ".bashrc",
+        "file": ".bashrc_2",
         "target": "~/"
       }
     }
@@ -47,6 +48,8 @@
   "environment": {
     "uilayout": "terminal",
     "uimessage1": "\u001b[32mVoici votre terminal interactif !\r\nVous pouvez exécuter les commandes en cliquant sur les liens de commandes du cours, ou décider de tapper vos propres commandes.\u001b[m\r\n"
+    "showdashboard": true,
+    "dashboards": [{"name": "Tab Name", "port": 80}, {"name": "Tab Name", "port": 8080}],
   },
   "backend": {
     "imageid": "ubuntu"
