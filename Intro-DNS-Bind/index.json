@@ -7,7 +7,8 @@
     "steps": [
       {
         "title": "Installation du serveur Bind9 et des outils sur notre système",
-        "text": "step1.md"
+        "text": "step1.md",
+        "verify": "step1-verify.sh"
       },
       {
         "title": "Découverte de l'espace de configuration",
