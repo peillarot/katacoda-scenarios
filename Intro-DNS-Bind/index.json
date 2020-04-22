@@ -38,7 +38,7 @@
       "text": "finish.md"
     },
     "assets": {
-      "client": {
+      "host1": {
         "file": ".bashrc_2",
         "target": "/root"
       }
