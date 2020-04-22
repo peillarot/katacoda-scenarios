@@ -19,4 +19,4 @@ Comme vous pouvez le voir, en utilisant le contrôleur système `systemctl`, not
 
 `systemctl status bind9`{{execute}}
 
-Nous pouvons à présent passer à l'étape suivante.
+Nous pouvons à présent passer à l'étape suivante (Attention ça n'est possible que si toutes les actions ont été réalisées).
