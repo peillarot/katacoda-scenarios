@@ -38,9 +38,9 @@
       "text": "finish.md"
     },
     "assets": {
-      "host1": {
-        "file": ".bashrc_2",
-        "target": "/root"
+      "host01": {
+        "file": "bashrc",
+        "target": "~/"
       }
     }
   },
