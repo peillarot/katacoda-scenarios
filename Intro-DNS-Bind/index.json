@@ -39,8 +39,7 @@
     },
     "assets": {
       "host01": [
-	      { "file": "bashrc", "target": "~/" },
-              { "file": "assets/bashrc", "target": "/tmp"}
+	      { "file": "bashrc", "target": "/root" }
       ]
     }
   },
