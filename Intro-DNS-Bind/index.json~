@@ -6,11 +6,11 @@
   "details": {
     "steps": [
       {
-        "title": "Installation du serveur Bind9 et des outils sur notre système",
+        "title": "Step 1",
         "text": "step1.md"
       },
       {
-        "title": "Découverte de l'espace de configuration",
+        "title": "Step 2",
         "text": "step2.md"
       },
       {
