@@ -1,0 +1,10 @@
+{
+  "title": "Les Conteneurs",
+  "description": "Découverte des conteneurs (Généralités, découverte de Docker, LXX, etc.)",
+  "courses": [
+    {
+      "course_id": "qu-est-ce-qu-un-container",
+      "title": "Qu'est ce qu'un conteneur",
+      "description": "Tour d'horison des conteneurs d'un point de vue système"
+    }]
+}

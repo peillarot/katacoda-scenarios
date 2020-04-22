@@ -1,0 +1,10 @@
+{
+  "title": "RSX102",
+  "description": "Mise en pratique RSX102	",
+  "courses": [
+    {
+      "course_id": "intro-dns-bind",
+      "title": "Découverte DNS via Linux / BIND",
+      "description": "Tour d'horison du serveur DNS Bind"
+    }]
+}
