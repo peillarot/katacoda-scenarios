@@ -35,3 +35,9 @@ Sinon, executez cette commande pour créer automatiquement la zone.
 
 puis `named-checkzone mondomaine.local /etc/bind/db.mondomaine.local`{{execute}}
 
+## Votre service DNS est prêt à effectuer son premier démarrage !
+
+Si toutes les étapes précédentes sont valides, et que les commandes de vérification n'ont pas renvoyées d'erreurs, alors nous sommes prêts à démarrer notre serveur DNS dans la section suivante.
+
+
+

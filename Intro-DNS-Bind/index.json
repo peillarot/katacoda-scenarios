@@ -25,11 +25,16 @@
       },
       {
         "title": "Etape 2 : création du fichier de zone",
-        "text": "step5.md"
+        "text": "step5.md",
+        "verify": "step5-verify.sh"
       },
       {
-        "title": "Step 6",
+        "title": "Etape 3 : démarrage et vérification",
         "text": "step6.md"
+      },
+        {
+        "title": "Activation du forwarder",
+        "text": "step7.md"
       }
     ],
     "intro": {
