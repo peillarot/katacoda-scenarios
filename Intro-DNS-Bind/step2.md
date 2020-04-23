@@ -43,7 +43,7 @@ Aujourd'hui, sur les distributions modernes (dans notre cas les Debian et dériv
 ## Comment savoir dans quel ordre ?
 Facile, sous Unix, tout se trouve dans un fichier de configuration qui permet de paramétrer au plus près de nos besoins, l'ordre de la chaine de résolution du système, pour chaque grande famille de résolution (hôtes, réseaux, etc.).
 
-C'est le fichier `/etc/nsswitch.conf` : `cat /etc/nssitch.conf`{{execute}}
+C'est le fichier `/etc/nsswitch.conf` : `cat /etc/nsswitch.conf`{{execute}}
 
 Sous Windows, tout est stocké dans la base de registres, via la clé : `\HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\TCPIP\ServiceProvider`
 

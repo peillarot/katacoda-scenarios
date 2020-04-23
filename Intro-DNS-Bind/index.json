@@ -19,11 +19,12 @@
         "text": "step3.md"
       },
       {
-        "title": "Step 4",
-        "text": "step4.md"
+        "title": "Etape 1 : déclaration du domaine dans BIND",
+        "text": "step4.md",
+        "verify": "step4-verify.sh"
       },
       {
-        "title": "Step 5",
+        "title": "Etape 2 : création du fichier de zone",
         "text": "step5.md"
       },
       {
