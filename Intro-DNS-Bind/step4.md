@@ -24,7 +24,7 @@ zone "mondomaine.local" {
 - Vous pouvez éditer manuellement le fichier et le renseigner comme indiqué, auquel cas afin d'éviter toute erreur, une fois renseigné, validez que vous n'avez pas commis d'erreur en saisissant la commande : `named-checkconf`
 *Si cette commande vous renvoi la main sans erreur, alors vous n'avez commis aucune erreur de syntaxe. Dans le cas contraire, corrigez là.*
 
-- Vous pouvez, sinon, utiliser la commande suivante pour alimenter le fichier automatiquement : `echo -e 'zone "mondomaine.local" {\n\ttype "master";\n\tfile "/etc/bind/db.mondomaine.local";\n};\n' >> /etc/bind/named.conf.local`{{execute}}
+- Vous pouvez, sinon, utiliser la commande suivante pour alimenter le fichier automatiquement : `echo -e 'zone "mondomaine.local" {\n\ttype master;\n\tfile "/etc/bind/db.mondomaine.local";\n};\n' >> /etc/bind/named.conf.local`{{execute}}
 
 Sécurité oblige, une petite vérification de la configuration s'impose : `named-checkconf`{{execute}}.
 
