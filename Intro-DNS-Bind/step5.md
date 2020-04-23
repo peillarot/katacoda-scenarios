@@ -8,7 +8,7 @@ Il commence par un élément important : le `SOA`.
 L'enregistrement de ressources **Start Of Authority** proclame des informations importantes faisant autorité sur un espace de nom (le domaine) pour le serveur de noms. 
 Un enregistrement de ressources SOA est le premier enregistrement de ressources dans un fichier de zone. 
 L'exemple qui suit montre la structure de base d'un enregistrement de ressources SOA : 
-![SOA](lrpei/scenarios/intro-dns-bind/assets/SOA.png)
+![SOA](/lrpei/scenarios/intro-dns-bind/assets/SOA.png)
 
 - Le symbole *@* place la directive *$ORIGIN* (ou le nom de zone, si la directive *$ORIGIN* n'est pas déterminée, ce qui est notre cas) en tant qu'espace de nom défini par le présent enregistrement de ressources *SOA*. 
 - Le nom d'hôte du serveur de noms primaire faisant autorité pour ce domaine est utilisé pour le *<primary-name-server>* et l'adresse électronique de la personne à contacter à propos de cet espace de nom est remplacée par *<hostmaster-email>*.
@@ -18,7 +18,7 @@ L'exemple qui suit montre la structure de base d'un enregistrement de ressources
 - La valeur *<minimum-TTL>* demande que d'autres serveurs de noms mettent en cache les informations pour cette zone pendant au moins cette durée définie. 
 
 Notre entête SOA une fois créée pourrait donc ressembler à cela : 
-![SOA2](lrpei/scenarios/intro-dns-bind/assets/SOA_2.png)
+![SOA2](/lrpei/scenarios/intro-dns-bind/assets/SOA_2.png)
 
 Ensuite viennent les enregistrements à proprement parler, et nous reviendrons là dessus une fois notre fichier créé.
 
@@ -26,7 +26,7 @@ Pour de plus amples informations sur ce point, référez vous à la section `12.
 
 Créons à présent notre fichier de zone : `/etc/bind/db.mondomaine.local`.
 Il doit ressembler à ça : 
-![zone](lrpei/scenarios/intro-dns-bind/assets/mondomaine.png)
+![zone](/lrpei/scenarios/intro-dns-bind/assets/mondomaine.png)
 
 Vous pouvez faire le choix de le réaliser à la main, auquel cas, vous pouvez utiliser l'outil `named-checkzone` pour vérifier que vous n'avez pas commis d'erreur de syntaxe : `named-checkzone mondomaine.local /etc/bind/db.mondomaine.local`{{execute}}
 
