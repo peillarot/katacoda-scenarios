@@ -8,14 +8,14 @@ Il commence par un élément important : le `SOA`.
 L'enregistrement de ressources **Start Of Authority** proclame des informations importantes faisant autorité sur un espace de nom (le domaine) pour le serveur de noms. 
 Un enregistrement de ressources SOA est le premier enregistrement de ressources dans un fichier de zone. 
 L'exemple qui suit montre la structure de base d'un enregistrement de ressources SOA : 
-<pre>
+<code>
 @     IN     SOA    <primary-name-server>     <hostmaster-email> (
                     <serial-number>
                     <time-to-refresh>
                     <time-to-retry>
                     <time-to-expire>
                     <minimum-TTL> )
-</pre>
+</code>
 - Le symbole *@* place la directive *$ORIGIN* (ou le nom de zone, si la directive *$ORIGIN* n'est pas déterminée, ce qui est notre cas) en tant qu'espace de nom défini par le présent enregistrement de ressources *SOA*. 
 - Le nom d'hôte du serveur de noms primaire faisant autorité pour ce domaine est utilisé pour le *<primary-name-server>* et l'adresse électronique de la personne à contacter à propos de cet espace de nom est remplacée par *<hostmaster-email>*.
 - La directive *<serial-number>* est incrémentée lors de chaque modification du fichier de zone afin que BIND sache qu'il doit recharger cette zone. 
