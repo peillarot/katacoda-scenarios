@@ -11,11 +11,11 @@
         "verify": "step1-verify.sh"
       },
       {
-        "title": "Découverte de l'espace de configuration",
+        "title": "Comment fonctionne la résolution des hôtes?",
         "text": "step2.md"
       },
       {
-        "title": "Step 3",
+        "title": "Découverte de l'espace de configuration",
         "text": "step3.md"
       },
       {
@@ -33,7 +33,7 @@
     ],
     "intro": {
       "text": "intro.md",
-      "code": "intro-prepare.sh"
+      "courseData": "intro-prepare.sh"
     },
     "finish": {
       "text": "finish.md"
