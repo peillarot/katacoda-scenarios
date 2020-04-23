@@ -16,8 +16,10 @@ zone "mondomaine.local" {
 };
 </pre>
 
-[X] La première ligne défini le nom de notre domaine : ici `mondomaine.local`
+[X] La première ligne défini le nom de notre domaine : ici `mondomaine.local`.
+
 [X] Ensuite avec la directive `type`, nous indiquons que nous somme le premier serveur DNS pour cette zone, on appelle ça un serveur maître (ou master)
+
 [X] Enfin, nous indiquons dans quel fichier texte nous allons renseigner les informations pour ce domaine.
 *Le nom de fichier importe peu, puisqu'il s'agit d'un paramétrage interne, l'important étant qu'il existe et soit bien renseigné.*
 
